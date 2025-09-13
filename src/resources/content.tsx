@@ -78,7 +78,7 @@ const home: Home = {
 };
 
 const about: About = {
-  path: "/",
+  path: "/about",
   label: "About",
   title: `About – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
@@ -229,8 +229,8 @@ const about: About = {
 };
 
 const blog: Blog = {
-  path: "/shop",
-  label: "Shop",
+  path: "/blog",
+  label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
@@ -272,7 +272,7 @@ const gallery: Gallery = {
     {
       src: "/images/gallery/libel.lula.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/mandala.jpg",
