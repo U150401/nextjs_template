@@ -272,7 +272,7 @@ const gallery: Gallery = {
     {
       src: "/images/gallery/libel.lula.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/mandala.jpg",
@@ -292,7 +292,7 @@ const gallery: Gallery = {
     {
       src: "/images/gallery/papallona.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/flors.webp",
@@ -307,17 +307,17 @@ const gallery: Gallery = {
     {
       src: "/images/gallery/rosa 1.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/rosa 2.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/roses.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
   ],
 };
