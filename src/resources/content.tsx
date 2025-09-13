@@ -78,7 +78,7 @@ const home: Home = {
 };
 
 const about: About = {
-  path: "/about",
+  path: "/",
   label: "About",
   title: `About – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
@@ -229,8 +229,8 @@ const about: About = {
 };
 
 const blog: Blog = {
-  path: "/blog",
-  label: "Blog",
+  path: "/shop",
+  label: "Shop",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
